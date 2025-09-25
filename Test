@@ -1,0 +1,14 @@
+- New Unity Project
+- Under the Assets folder, create a new folder called Editor.
+- Place the BuildAssetBundle.cs script in the Editor folder.
+- Import your custom mesh into Unity.
+- Set up the material, textures, and collision of your object. If you want the object to be climbable, set the Tag as "Climbable".
+- Make a prefab out of your custom object once you have set it up.
+- Select your prefab and click on the lower double horizontal line found at the bottom to expand the Asset Bundle section.
+- Create a new bundle.
+- Go to Assets > Build AssetBundles
+- New files can be found at Assets > AssetBundles.
+- Copy the largest file within AssetBundles to your Compendium Folder (same location as your Custom Level(s).
+- You can now use the AssetBundle within the Level Editor. 
+- Load Full Bundle allows you to load the entire bundle at once on play. 
+- Custom Single Asset allows you to load specific assets within the Asset Bundle. 
