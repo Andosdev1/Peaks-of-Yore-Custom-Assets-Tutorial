@@ -104,14 +104,14 @@ Note that you can create multiple prefabs and add them to your Asset Bundle. The
 <img width="426" height="687" alt="tut_9" src="https://github.com/user-attachments/assets/e5e0aa0e-e7ac-4034-9d8f-5b458fe38da7" />
 </p>
 
-After building finishes, you should see new files at Asset > AssetBundles. 
+8. After building finishes, you should see new files at Asset > AssetBundles. 
 
 Typically the largest file should be the actual Asset Bundle that you'll need to copy into your Custom Level's Location. 
 <p align="center">
 <img width="688" height="650" alt="tut_10" src="https://github.com/user-attachments/assets/510676f5-056d-425b-841c-bdbdfa0d385e" />
 </p>
 
-If you have saved your current Custom Level, the Asset Bundle should be pasted into your Compendium's Folder. Typically on Windows, this location is within CustomLevels/YourCompendiumName. 
+9. If you have saved your current Custom Level, the Asset Bundle should be pasted into your Compendium's Folder. Typically on Windows, this location is within CustomLevels/YourCompendiumName. 
 The Asset Bundle name will need to match the level's name, but it doesn't matter if it's capitalized or not - as long as it matches the level's name. To keep it consistent, just copy-paste your level's name to your Asset Bundle file.
 
 <p align="center">
@@ -127,6 +127,34 @@ A shortcut to the CustomLevels location can be found below - simply copy and pas
 </p>
 
 
-- Load Full Bundle allows you to load the entire bundle at once on play. 
-- Custom Single Asset allows you to load specific assets within the Asset Bundle.
+# Using your newly built Asset Bundles
+
+### Load Full Custom Bundle
+
+Toggling Load Full Custom Bundle on will load everything within the Asset Bundle file.
+
+<p align="center">
+<img width="324" height="278" alt="image" src="https://github.com/user-attachments/assets/e782b5aa-77e8-4080-9aa8-837a54f1f13a" />
+</p>
+
+### Custom Single Asset
+
+This will allow you to specify which prefabs to use from within the Asset Bundle and then place them manually within the scene.
+
+If you intend to use this, I don't recommend using the Load Full Custom Bundle feature, as the Custom Single Asset is intended to be more of a pick-and-choose type of feature, rather than spawning in everything from the Asset Bundle, but this is of course up to you.
+
+
+<p align="center">
+<img width="324" height="282" alt="image" src="https://github.com/user-attachments/assets/425cdd0a-8683-45ef-a48f-6733e73da850" />
+</p>
+
+Once you place the Custom Single Asset holder, you'll get the option to specify which prefab it should load from your Asset Bundle. 
+
+<p align="center">
+<img width="711" height="645" alt="image" src="https://github.com/user-attachments/assets/5f8abb1c-d25d-4768-9586-a86e625e206f" />
+</p>
+
+This should <ins>match the prefab name you want</ins> from the Asset Bundle. So for example, if you have a prefab called <b>bed_prefab</b> inside the Asset Bundle file, the name should be <b>bed_prefab</b>. 
+
+<img width="1050" height="700" alt="image" src="https://github.com/user-attachments/assets/aed1d288-4b9c-45ad-8e04-fec375da0a15" />
 
