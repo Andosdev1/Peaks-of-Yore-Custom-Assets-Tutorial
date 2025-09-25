@@ -12,3 +12,4 @@
 - You can now use the AssetBundle within the Level Editor. 
 - Load Full Bundle allows you to load the entire bundle at once on play. 
 - Custom Single Asset allows you to load specific assets within the Asset Bundle.
+<img width="396" height="324" alt="tut_1" src="https://github.com/user-attachments/assets/308363f7-98cb-490b-88f1-1e07360f5779" />
