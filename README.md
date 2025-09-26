@@ -154,7 +154,7 @@ Once you place the Custom Single Asset holder, you'll get the option to specify 
 <img width="711" height="645" alt="image" src="https://github.com/user-attachments/assets/5f8abb1c-d25d-4768-9586-a86e625e206f" />
 </p>
 
-This should <ins>match the prefab name you want</ins> from the Asset Bundle. So for example, if you have a prefab called <b>bed_prefab</b> inside the Asset Bundle file, the name should be <b>bed_prefab</b>. 
+This should <ins>match the prefab name you want</ins> from the Asset Bundle. So for example, if you have a prefab called <b>bed_prefab</b> inside the Asset Bundle file, the Bundle Asset Name should be <b>bed_prefab</b>. 
 
 <img width="1050" height="700" alt="image" src="https://github.com/user-attachments/assets/aed1d288-4b9c-45ad-8e04-fec375da0a15" />
 
