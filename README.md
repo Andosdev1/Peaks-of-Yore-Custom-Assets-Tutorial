@@ -4,7 +4,7 @@ The Peaks of Yore Level Editor allows you to use custom objects for your levels.
 It is ideal if you have an O.K understanding of using the Unity Editor, as this tutorial will rush through a few things.
 
 
-1. First, create a new Unity Project with version <b>2019.4.36f</b>.
+1. First, create a new Unity Project with version <b>2019.4.41f1</b>.
 
 This version is important because it's the same that Peaks of Yore uses. Other versions of Unity that builds Asset Bundles are not guaranteed to be compatible with the Level Editor in Peaks of Yore.
 
